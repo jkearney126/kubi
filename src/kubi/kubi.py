@@ -12,9 +12,7 @@ import glob
 import numpy as np
 from numpy import pi
 
-IsWin = platform.system() == 'Windows'
-if not IsWin:
-    import pyvips
+import pyvips
 
 from kubi import __version__
 
